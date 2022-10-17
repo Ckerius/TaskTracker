@@ -1,5 +1,12 @@
 public class Converter {
-
+    public static int calories(int steps) {
+        int kcal = steps * 5 / 100;
+        return kcal;
+    }
+    public static double distance(int steps) {
+        double km = steps * 0.75 / 1000;
+        return km;
+    }
 }
 
 /*
